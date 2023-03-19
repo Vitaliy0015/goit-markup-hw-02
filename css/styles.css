@@ -47,22 +47,33 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-site {
+.header-adress{
+
+}
+.header-list{
+
+}
+.header-item{
+
+}
+.header-mail{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .header-phone {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .hero {
     background: #2E2F42;
 }
@@ -70,7 +81,7 @@ body{
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.33;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -80,7 +91,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.50;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -101,10 +112,10 @@ body{
 .priority-item {
 
 }
-.priority-title {
+.priority-top-text {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.33;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -112,34 +123,18 @@ body{
 .priority-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.work {
-    background: white;
-}
-
-.work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.work-list {}
-
-.work-item {}
-
 .about {
     background: white;
 }
 
-.about-title {
+.about-subtitle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -148,18 +143,37 @@ body{
 
 .about-item {}
 
-.about-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+
+
+
+.team {
+    background: white;
+}
+
+.team-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.about-text {
+.team-list {}
+
+.team-item {}
+
+.team-top-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -168,11 +182,31 @@ body{
 }
 
 .footer-logo {
-
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
 }
 
-.link {}
+.footer-span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+}
 
-.footer-span {}
-
-.footer-text {}
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
