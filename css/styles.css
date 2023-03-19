@@ -175,9 +175,6 @@ body{
 
 .about-item {}
 
-
-
-
 .team {
     background-color: #F4F4FD
 }
@@ -248,3 +245,59 @@ body{
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+.works {}
+
+.works-title {}
+
+.filter-list {}
+
+.list {}
+
+.filter-item {}
+
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    color: #4d5ae5;
+    cursor: pointer
+}
+.filter-btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.hero-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.works-list {}
+
+.banking-app-link {}
+
+.link {}
+
+.works-top-text {}
+
+.works-text {}
+
+.cashless-payment-link {}
+
+.meditation-app-link {}
+
+.taxi-service-link {}
+
+.screen-illustrations-link {}
+
+.online-courses-link {}
+
+.instagram-stories-link {}
+
+.organic-food-link {}
+
+.fresh-coffee-link {}
