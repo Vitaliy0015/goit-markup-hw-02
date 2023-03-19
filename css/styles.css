@@ -1,3 +1,17 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -51,8 +65,15 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-adress{
+.header-link:hover {
+    color: #404bbf;
+}
 
+.header-link:focus {
+    color: #404bbf;
+}
+.header-adress{
+    font-style: normal;
 }
 .header-list{
 
@@ -60,7 +81,7 @@ body{
 .header-item{
 
 }
-.header-mail{
+.header-contacts{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -68,16 +89,12 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.header-phone {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.header-contacts:hover {
+    color: #404bbf;
 }
-
+.header-contacts:focus {
+    color: #404bbf;
+}
 .hero {
     background: #2E2F42;
 }
@@ -104,7 +121,15 @@ body{
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 .priority {
  background: white;
 }
@@ -169,14 +194,16 @@ body{
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-top-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     color: #2E2F42;
 }
 
